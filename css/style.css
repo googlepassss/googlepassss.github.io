@@ -1,0 +1,95 @@
+body{
+    background: #202124;
+}
+
+nav{
+    float: right;
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+}
+nav a{ 
+    color: antiquewhite;
+    text-decoration: none;
+    margin: 10px;
+}
+nav a:hover{
+    text-decoration:underline;
+}
+
+nav img{
+    max-width: 15px;
+    color: white; 
+    background: white;
+    padding: 10px;
+    border-radius:15px;
+}
+nav a{
+    align-content: center;
+}
+
+
+img{
+    width: 400px;;
+    height: 100%;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.busqueda{
+    text-align: center;
+
+}
+.aca{
+    text-align: center;
+    justify-content: center;
+}
+
+.cuadro{
+    width: 550px;
+    height: 5vh;
+    background: #202124;
+    color: white;
+    border: solid 1px;;
+    border-radius: 25px;
+}
+
+.busqueda img{
+    max-width: 15px;
+
+}
+
+footer{
+    background: black;
+    height: 20vh;
+}
+footer h2{
+    
+    padding: 15px 30px;
+    border-bottom: 1px solid #3c4043;
+    font-size: 15px;
+    color: #9aa0a6;
+
+}
+
+
+.dos{
+    display: inline;
+    float: right;
+    color: #9aa0a6;
+
+}
+ .uno a{
+    color: #9aa0a6;
+    text-decoration: none;
+    margin-left: 17px;
+ }
+
+.dos a{
+    color: #9aa0a6;
+    text-decoration: none;
+    margin-right: 17px;
+}
